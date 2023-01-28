@@ -1,0 +1,55 @@
+.banner{
+    background-color: lightgreen;
+    color: darkolivegreen;
+    padding: 10px 20px; 
+    display: block;
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+nav{
+    background-color: aliceblue;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 18 px;
+    /* margin-right: 15px;
+    font-size: 15px;
+    font-variant: small-caps;
+    height: 40px;
+    border-top: 100px; */
+}
+
+footer{
+    clear: both;
+    background-color: beige;
+    padding: 5px 2px;
+    height: 12
+
+}
+
+#page-container {
+    position: relative;
+    min-height: 80vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+nav li{
+    font-family:'Times New Roman', Times, serif;
+    color: darkolivegreen
+}
