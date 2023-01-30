@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    width:100%;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+h2{
+    font-size: 100px;
+    line-height: 100px;
+    color: black;
+}
+
+
+li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#header{
+    background: rgb(22,56,2);
+    background: linear-gradient(90deg, rgba(22,56,2,1) 0%, rgba(169,221,53,1) 77%, rgba(243,246,114,1) 100%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    position: sticky;
+    height: 100px;
+    box-shadow: 2px;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    list-style: none;
+    width: 6.5%;
+    margin-right: auto;
+    z-index: 1;
+    backface-visibility: visible;
+   
+}
+
+.nav-links{
+    list-style: none;
+    right: 150px;
+    position: absolute;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-right: 50px;
+}
+
+/* .nav-links li a{
+    transition: all 0.3s ease 0s;
+} */
+
+#trade-name{
+    position: absolute;
+    color: rgb(252, 252, 252);
+    font-size: 30px;
+    font-weight: 200;
+    left: 20%;
+    top:40%;
+}
+
+
+
+
+.whatsapp-image{
+    position: absolute;
+    width: 30px;
+    right:400px;
+
+}
+
+.twitter-image{
+    position: absolute;
+    width: 40px;
+    right: 250px;
+}
+
+
+
+#main-img{
+    background-image: url("images/main-img.png");
+    position: absolute;
+    width: 250vh;
+    height: 70vh;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+}
+
+.fe-box{
+    position: relative;
+    top:550px;
+}
+
+footer{
+    
+    top:1000px;
+    height:5px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+    background: rgb(22,56,2);
+    background: linear-gradient(90deg, rgba(22,56,2,1) 0%, rgba(169,221,53,1) 77%, rgba(243,246,114,1) 100%);
+
+}
+
+#footer{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+#footer li{
+    list-style: none;
+    padding: 0 20px;
+}
+
